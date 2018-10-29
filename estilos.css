@@ -1,0 +1,63 @@
+/*Comienzo de Header*/
+#header {
+	background-color: #343a40
+}
+#header img {
+	width: 80px;
+}
+#header span{
+	font-size: 18px;
+	vertical-align: middle;
+}
+.texto-platzi {
+	color: #97c93e !important ;
+}
+/*Fin de Header*/
+
+/*Comienzo de Footer*/
+#footer {
+	background-color: #1e516f;
+}
+#footer a {
+	color: white;
+}
+/*Fin de Footer*/
+/*Comienzo de Carousel*/
+#Carousel img {
+	height: 70vh;
+	object-fit: cover;
+	filter: grayscale(40%);
+}
+#Carousel {
+	position: relative;
+}
+#Carousel .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	height: 100%;
+}
+#Carousel .overlay .container, #Carousel .overlay .row {
+	height: 100%;
+}
+.btn-Platzi {
+	background-color: #97c93e !important;
+	color: white;
+}
+.btn-Platzi:hover {
+	background-color: #3F7215 !important;
+}
+/*Fin de Carousel
+/*Contenedor completo*/
+#lugarfecha {
+	background-color: #343a40;
+	color: white;
+}
+#lugarfecha img {
+	max-width: 100%;
+}
+/*Fin de contenedor completo*/
